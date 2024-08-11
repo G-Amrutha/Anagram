@@ -1,18 +1,4 @@
-### Overview
 
-- **Functionality**: The program checks if two strings are anagrams. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
-
-- **Implementation Details**:
-  - The program reads two strings from the user.
-  - It checks if the strings have the same length. If not, they cannot be anagrams.
-  - For each character in the first string, it searches for a match in the second string.
-  - If every character from the first string is found in the second string (and vice versa), the strings are anagrams.
-
-### README.md
-
-Here's a draft for the README based on the code:
-
-```markdown
 # Anagram Checker
 
 This C++ program checks whether two input strings are anagrams of each other. It takes two strings as input and determines if they can be rearranged to form each other.
